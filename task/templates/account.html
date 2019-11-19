@@ -1,0 +1,7 @@
+{% extends 'base.html' %}
+{% block content %}
+
+                <h2 class="account-heading">{{ current_user.username }}</h2>
+                <p class="text-secondary">Email: {{ current_user.email }}</p>
+                <p class="text-secondary">Password: {{ current_user.password }}</p>
+{% endblock %}
